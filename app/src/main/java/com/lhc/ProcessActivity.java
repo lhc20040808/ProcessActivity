@@ -50,6 +50,11 @@ public class ProcessActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * @param uri 请求uri
+     * @param path 结果页全路径
+     */
     private void distribute(Uri uri, String path) {
         Bundle bundle = new Bundle();
         Set<String> keyNames = uri.getQueryParameterNames();
